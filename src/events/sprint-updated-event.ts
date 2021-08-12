@@ -10,5 +10,5 @@ export interface SprintCreatedEvent {
     name: string;
     startDate: string;
     duration: number;
+  };
 }
-
