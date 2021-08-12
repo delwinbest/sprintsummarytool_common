@@ -8,7 +8,7 @@ export interface SprintCreatedEvent {
     version: number;
     status: SprintStatus;
     name: string;
-    startDate: string;
+    startDate: Date;
     duration: number;
   };
 }
