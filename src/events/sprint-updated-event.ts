@@ -1,7 +1,7 @@
 import { Subjects } from './subjects';
 import { SprintStatus } from './types/sprint-status';
 
-export interface SprintCreatedEvent {
+export interface SprintUpdatedEvent {
   subject: Subjects.SprintCreated;
   data: {
     id: string;

@@ -15,3 +15,5 @@ export * from './events/base-publisher';
 export * from './events/subjects';
 
 export * from './events/types/sprint-status';
+export * from './events/sprint-created-event';
+export * from './events/sprint-updated-event';
