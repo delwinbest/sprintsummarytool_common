@@ -2,7 +2,7 @@ import { Subjects } from './subjects';
 import { SprintStatus } from './types/sprint-status';
 
 export interface SprintUpdatedEvent {
-  subject: Subjects.SprintCreated;
+  subject: Subjects.SprintUpdated;
   data: {
     id: string;
     version: number;
