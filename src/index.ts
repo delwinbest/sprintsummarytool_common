@@ -18,3 +18,5 @@ export * from './events/subjects';
 export * from './events/types/sprint-status';
 export * from './events/sprint-created-event';
 export * from './events/sprint-updated-event';
+
+export * from './events/team-created-event';
