@@ -12,7 +12,7 @@ export interface SprintCreatedEvent {
     duration: number;
     team: {
       id: string;
-      name: number;
+      name: string;
     };
   };
 }
