@@ -6,5 +6,6 @@ export interface UserUpdatedEvent {
     id: string;
     name: string;
     version: number;
+    team?: string;
   };
 }
