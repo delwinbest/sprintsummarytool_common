@@ -3,4 +3,6 @@ export enum Subjects {
   SprintUpdated = 'sprint:updated',
 
   TeamCreated = 'team:created',
+
+  UserCreated = 'user:created',
 }

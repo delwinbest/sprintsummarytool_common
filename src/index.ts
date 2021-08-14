@@ -20,3 +20,5 @@ export * from './events/sprint-created-event';
 export * from './events/sprint-updated-event';
 
 export * from './events/team-created-event';
+
+export * from './events/user-created-event';
