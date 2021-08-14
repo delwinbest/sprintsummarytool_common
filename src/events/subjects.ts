@@ -6,4 +6,5 @@ export enum Subjects {
   TeamUpdated = 'team:updated',
 
   UserCreated = 'user:created',
+  UserUpdated = 'user:updated',
 }

@@ -23,3 +23,4 @@ export * from './events/team-created-event';
 export * from './events/team-updated-event';
 
 export * from './events/user-created-event';
+export * from './events/user-updated-event';
