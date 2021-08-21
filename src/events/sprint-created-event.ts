@@ -1,5 +1,6 @@
 import { Subjects } from './subjects';
 import { SprintStatus } from './types/sprint-status';
+import { TeamStatus } from './types/team-status';
 
 export interface SprintCreatedEvent {
   subject: Subjects.SprintCreated;
@@ -13,6 +14,7 @@ export interface SprintCreatedEvent {
     team: {
       id: string;
       name: string;
+      status: TeamStatus;
     };
   };
 }
