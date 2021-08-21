@@ -6,7 +6,6 @@ export interface SprintCreatedEvent {
   subject: Subjects.SprintCreated;
   data: {
     id: string;
-    version: number;
     status: SprintStatus;
     name: string;
     startDate: Date;
