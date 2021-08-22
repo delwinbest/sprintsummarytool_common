@@ -1,4 +1,5 @@
 import { Subjects } from './subjects';
+import { UserRole } from './types/user-role';
 import { UserStatus } from './types/user-status';
 
 export interface UserUpdatedEvent {
@@ -8,6 +9,7 @@ export interface UserUpdatedEvent {
     version: number;
     name: string;
     status: UserStatus;
+    role: UserRole;
     email: string;
     team?: string;
   };

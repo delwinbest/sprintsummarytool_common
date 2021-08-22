@@ -1,12 +1,14 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
+import { UserRole } from '../events/types/user-role';
 
 interface UserPayload {
   id: string;
   email: string;
+  role: UserRole;
 }
 
-// Modify existing type definition, add ne properties
+// Modify existing type definition, add new properties
 declare global {
   namespace Express {
     interface Request {
