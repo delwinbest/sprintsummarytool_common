@@ -6,7 +6,8 @@ export interface UserCreatedEvent {
   subject: Subjects.UserCreated;
   data: {
     id: string;
-    name: string;
+    given_name: string;
+    family_name: string;
     status: UserStatus.Active;
     role: UserRole;
     email: string;
